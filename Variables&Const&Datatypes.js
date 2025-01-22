@@ -41,3 +41,16 @@ console.log(myname)
 let bool = 4>5
 console.log(bool) // boolean values
 console.log(num / "Hi") // The output is NaN which is not a number but the type is number
+let num1 = String(6) // Typecasting
+let num2 = Number("123")// Typecasting
+let boolean = Boolean("false")// Typecasting
+console.log(num1,typeof num1)// Typecasting
+console.log(typeof boolean)// Typecasting 
+//Coercion is basically it will change the data based on the operator we use
+let x = 5
+console.log(x, typeof x)
+x = x + ""
+console.log(x, typeof x)
+x = x - 2
+console.log(x, typeof x)
+// THis behaviour is called coercion
