@@ -17,4 +17,8 @@ else{
     console.log("cry");
 }
 
-//Ternery Operators
+//Ternery Operators ?://
+
+let a =6;
+let res = a%2===0 ? "Even" : "Odd" // ? and : is used for ternery operator
+console.log(res)
