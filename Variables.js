@@ -7,4 +7,4 @@ console.log(num+3)
 let username = "Ruku"
 let $user_id = 'Ruku' // string can be kept either in single quotes or in double quotes
 //dollar and underscore are the only symbols that are allowed in js
-console.log(username,userid)
+console.log(username,$user_id)
