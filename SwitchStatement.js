@@ -1,4 +1,4 @@
-let day ="Sun";
+let day = "Sun";
 
 if(day === "Mon"){
     console.log("Wake up at 7am");
@@ -14,7 +14,7 @@ else{
 }
 
 //Switch cases
-let day1 = "Mon";
+const day1 = "Mon";
 switch(day1){
     case "Mon":
         console.log("Wake up at 7am");
@@ -31,3 +31,12 @@ switch(day1){
         console.log("Wake up at 8am");
         break;
 }
+
+//Template Literal
+let num1 = 5;
+let num2 = 6;
+let sum = num1 + num2;
+console.log("The sum of " + num1 + " and " + num2 + " is " + sum);
+console.log(`THe sume of ${num1} and ${num2} is ${sum}`); // This is called template literal where we use backticks and ${} to use the variables in the string
+console.log(`My name is 
+ruku`); // This is used to print the string in multiple lines aswell using backticks and \n is not needed 
