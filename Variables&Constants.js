@@ -8,3 +8,20 @@ let username = "Ruku"
 let $user_id = 'Ruku' // string can be kept either in single quotes or in double quotes
 //dollar and underscore are the only symbols that are allowed in js
 console.log(username,$user_id)
+
+let r = 45
+const pi = 3.14
+const area = pi * r * r// here const are constants where if I want to change the value of variable it can't be changed
+console.log(area)
+
+        //DATA TYPES
+        //         \\
+       //           \\
+       //            \\
+// PRIMITIVE        OBJECT 
+// NUMBER
+// STRING
+// BOOLEAN
+// NULL
+// UNIDENTIFIED
+// SYMBOL
