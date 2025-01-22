@@ -5,5 +5,6 @@ num = 6 // here I'm not using the let because num is already declared I'm just u
 console.log(num)// you can rewrite the value of num aswell
 console.log(num+3)
 let username = "Ruku"
-let userid = 'Ruku' // string can be kept either in single quotes or in double quotes
+let $user_id = 'Ruku' // string can be kept either in single quotes or in double quotes
+//dollar and underscore are the only symbols that are allowed in js
 console.log(username,userid)
