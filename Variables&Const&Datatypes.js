@@ -25,3 +25,19 @@ console.log(area)
 // NULL
 // UNIDENTIFIED
 // SYMBOL
+
+console.log(typeof username) // type of is used to know what is the type of variable
+let hex = 0xf // here we can initiate the value of hexa decimal aswell we need to start with 0x inorder to use hexadecimal 0xf value is 15
+let exp = 14e75 // I can also declare the exponential value
+let bigint = 98258973456984235689324659832456n // n is used at last to say this is a big int
+console.log(hex)
+console.log(exp)
+let infy = 5/0 // Here the output will be infinity
+console.log(infy)
+console.log(Number.MAX_VALUE)//Number is an interface
+console.log(Number.POSITIVE_INFINITY)
+let myname = "V \nS K \"RU\tku\"" // Here the slash \ is used to cancel the meaning of the symbol
+console.log(myname)
+let bool = 4>5
+console.log(bool) // boolean values
+console.log(num / "Hi") // The output is NaN which is not a number but the type is number
