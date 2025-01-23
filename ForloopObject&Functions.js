@@ -61,4 +61,4 @@ console.log(addwn(-1,4));
 
 //arrow function with ternery operator
 let addawto = (num1,num2)=>(num1<0?num1=-num1:num1)+(num2<0?num2=-num2:num2)// Anonymous function with ternery operator
-console.log(addawto(-1,3));
+console.log(addawto(-1,3)); // This will not work on arrow functions
