@@ -1,0 +1,2 @@
+Document object model is an api for manipulating the html documents
+It allows us to add remove and modify the parts of the documents effectively
