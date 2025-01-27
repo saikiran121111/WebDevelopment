@@ -7,7 +7,7 @@ button.onclick = function(){
     console.log(this.id);
 }
 //addEventListener(event,function,usecapture(booleantype)) is another way to add an event
-//removeEventListener() is used to remove event listener  
+//removeEventListener(event,function,usecapture(booleantype)) is used to remove event listener  
 
 let but = document.getElementById("btn3");
 but.addEventListener('click',function(){
