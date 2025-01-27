@@ -29,10 +29,12 @@ console.log(username.hasAttribute("id"));//used to check if there is this attrib
 
 //username.removeAttribute("id");//THis will remove the attribute
 
-console.log(username.style.backgroundColor);
-
 username.style.padding = "100px" // This will add the css styling for html
 //Basically if we add the things here it will overide the original so if we use concatinate then it will be added without overide
 
 //to concatenate username.style.cssText += "width:150px;height:100px;etc...;" pluse is added before equals to concatenate and not overiding
 username.style.fontSize = "150px"
+
+console.log(window.getComputedStyle(username).backgroundColor);//to display the specific color or some other thing
+//This is used to grab the css property from different source that is applied to the username
+
